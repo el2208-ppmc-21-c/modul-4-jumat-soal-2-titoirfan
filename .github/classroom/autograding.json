@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "3\r\ndanu 13218022 100\r\nandika 13218030 99\r\nelang 13218041 98\r\ndan",
+      "output": "danu    13218022        100\r\n\r\nHasil sorting berdasarkan nama:\r\nandika  13218030        99\r\ndanu    13218022        100\r\nelang   13218041        98\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        100\r\nandika  13218030        99\r\nelang   13218041        98\r\n\r\nHasil sorting berdasarkan nilai:\r\ndanu    13218022        100\r\nandika  13218030        99\r\nelang   13218041        98",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "3\r\ndanu 13218022 98\r\nelang 13218041 100\r\nandika 13218030 99\r\n022",
+      "output": "danu    13218022        98\r\n\r\nHasil sorting berdasarkan nama:\r\nandika  13218030        99\r\ndanu    13218022        98\r\nelang   13218041        100\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        98\r\nandika  13218030        99\r\nelang   13218041        100\r\n\r\nHasil sorting berdasarkan nilai:\r\nelang   13218041        100\r\nandika  13218030        99\r\ndanu    13218022        98",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "3\r\ndanu 13218022 99\r\nelang 13218041 99\r\nandika 13218030 100\r\n13218",
+      "output": "danu    13218022        99\r\nelang   13218041        99\r\nandika  13218030        100\r\n\r\nHasil sorting berdasarkan nama:\r\nandika  13218030        100\r\ndanu    13218022        99\r\nelang   13218041        99\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        99\r\nandika  13218030        100\r\nelang   13218041        99\r\n\r\nHasil sorting berdasarkan nilai:\r\nandika  13218030        100\r\ndanu    13218022        99\r\nelang   13218041        99",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "3\r\ndanu 13218022 99\r\nelang 13218041 99 \r\nandika 13218030 100\r\natang",
+      "output": "Data tidak ditemukan!\r\n\r\nHasil sorting berdasarkan nama:\r\nandika  13218030        100\r\ndanu    13218022        99\r\nelang   13218041        99\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        99\r\nandika  13218030        100\r\nelang   13218041        99\r\n\r\nHasil sorting berdasarkan nilai:\r\nandika  13218030        100\r\ndanu    13218022        99\r\nelang   13218041        99",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\natang 13218049 90\r\ndanu 13218022 28\r\ndanu",
+      "output": "danu    13218022        28\r\n\r\nHasil sorting berdasarkan nama:\r\natang   13218049        90\r\ndanu    13218022        28\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        28\r\natang   13218049        90\r\n\r\nHasil sorting berdasarkan nilai:\r\natang   13218049        90\r\ndanu    13218022        28",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\nmessi 13218001 94\r\nronaldo 18318007 94\r\nneymar",
+      "output": "Data tidak ditemukan!\r\n\r\nHasil sorting berdasarkan nama:\r\nmessi   13218001        94\r\nronaldo 18318007        94\r\n\r\nHasil sorting berdasarkan NIM:\r\nmessi   13218001        94\r\nronaldo 18318007        94\r\n\r\nHasil sorting berdasarkan nilai:\r\nmessi   13218001        94\r\nronaldo 18318007        94",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\nhaaland 18318020 85\r\nmbappe 13218022 89\r\n183",
+      "output": "haaland 18318020        85\r\n\r\nHasil sorting berdasarkan nama:\r\nhaaland 18318020        85\r\nmbappe  13218022        89\r\n\r\nHasil sorting berdasarkan NIM:\r\nmbappe  13218022        89\r\nhaaland 18318020        85\r\n\r\nHasil sorting berdasarkan nilai:\r\nmbappe  13218022        89\r\nhaaland 18318020        85",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\nudin 13219019 87\r\nudinese 18319045 84\r\nudin",
+      "output": "udin    13219019        87\r\nudinese 18319045        84\r\n\r\nHasil sorting berdasarkan nama:\r\nudin    13219019        87\r\nudinese 18319045        84\r\n\r\nHasil sorting berdasarkan NIM:\r\nudin    13219019        87\r\nudinese 18319045        84\r\n\r\nHasil sorting berdasarkan nilai:\r\nudin    13219019        87\r\nudinese 18319045        84",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\natang 13218049 99\r\nbintang 13218050 98\r\ntang",
+      "output": "atang   13218049        99\r\nbintang 13218050        98\r\n\r\nHasil sorting berdasarkan nama:\r\natang   13218049        99\r\nbintang 13218050        98\r\n\r\nHasil sorting berdasarkan NIM:\r\natang   13218049        99\r\nbintang 13218050        98\r\n\r\nHasil sorting berdasarkan nilai:\r\natang   13218049        99\r\nbintang 13218050        98",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\narif 13201010 58\r\nraif 18301010 81\r\n01010",
+      "output": "arif    13201010        58\r\nraif    18301010        81\r\n\r\nHasil sorting berdasarkan nama:\r\narif    13201010        58\r\nraif    18301010        81\r\n\r\nHasil sorting berdasarkan NIM:\r\narif    13201010        58\r\nraif    18301010        81\r\n\r\nHasil sorting berdasarkan nilai:\r\nraif    18301010        81\r\narif    13201010        58",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}

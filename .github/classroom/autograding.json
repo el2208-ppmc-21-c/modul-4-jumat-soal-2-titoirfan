@@ -5,7 +5,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "3\r\ndanu 13218022 100\r\nandika 13218030 99\r\nelang 13218041 98\r\ndan",
-      "output": "danu\\t13218022\\t100\r\n\r\nHasil sorting berdasarkan nama:\r\nandika\\t13218030\\t99\r\ndanu\\t13218022\\t100\r\nelang\\t13218041\\t98\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu\\t13218022\\t100\r\nandika\\t13218030\\t99\r\nelang\\t13218041\\t98\r\n\r\nHasil sorting berdasarkan nilai:\r\ndanu\\t13218022\\t100\r\nandika\\t13218030\\t99\r\nelang\\t13218041\\t98",
+      "output": "danu\t13218022\t100\r\n\r\nHasil sorting berdasarkan nama:\r\nandika\t13218030\t99\r\ndanu\t13218022\t100\r\nelang\t13218041\t98\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu\t13218022\t100\r\nandika\t13218030\t99\r\nelang\t13218041\t98\r\n\r\nHasil sorting berdasarkan nilai:\r\ndanu\t13218022\t100\r\nandika\t13218030\t99\r\nelang\t13218041\t98",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "3\r\ndanu 13218022 98\r\nelang 13218041 100\r\nandika 13218030 99\r\n022",
-      "output": "danu    13218022        98\r\n\r\nHasil sorting berdasarkan nama:\r\nandika  13218030        99\r\ndanu    13218022        98\r\nelang   13218041        100\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        98\r\nandika  13218030        99\r\nelang   13218041        100\r\n\r\nHasil sorting berdasarkan nilai:\r\nelang   13218041        100\r\nandika  13218030        99\r\ndanu    13218022        98",
+      "output": "danu\t13218022\t98\r\n\r\nHasil sorting berdasarkan nama:\r\nandika\t13218030\t99\r\ndanu\t13218022\t98\r\nelang\t13218041\t100\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu\t13218022\t98\r\nandika\t13218030\t99\r\nelang\t13218041\t100\r\n\r\nHasil sorting berdasarkan nilai:\r\nelang\t13218041\t100\r\nandika\t13218030\t99\r\ndanu\t13218022\t98",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "3\r\ndanu 13218022 99\r\nelang 13218041 99\r\nandika 13218030 100\r\n13218",
-      "output": "danu    13218022        99\r\nelang   13218041        99\r\nandika  13218030        100\r\n\r\nHasil sorting berdasarkan nama:\r\nandika  13218030        100\r\ndanu    13218022        99\r\nelang   13218041        99\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        99\r\nandika  13218030        100\r\nelang   13218041        99\r\n\r\nHasil sorting berdasarkan nilai:\r\nandika  13218030        100\r\ndanu    13218022        99\r\nelang   13218041        99",
+      "output": "danu\t13218022\t99\r\nelang\t13218041\t99\r\nandika\t13218030\t100\r\n\r\nHasil sorting berdasarkan nama:\r\nandika\t13218030\t100\r\ndanu\t13218022\t99\r\nelang\t13218041\t99\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu\t13218022\t99\r\nandika\t13218030\t100\r\nelang\t13218041\t99\r\n\r\nHasil sorting berdasarkan nilai:\r\nandika\t13218030\t100\r\ndanu\t13218022\t99\r\nelang\t13218041\t99",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -35,7 +35,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "3\r\ndanu 13218022 99\r\nelang 13218041 99 \r\nandika 13218030 100\r\natang",
-      "output": "Data tidak ditemukan!\r\n\r\nHasil sorting berdasarkan nama:\r\nandika  13218030        100\r\ndanu    13218022        99\r\nelang   13218041        99\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        99\r\nandika  13218030        100\r\nelang   13218041        99\r\n\r\nHasil sorting berdasarkan nilai:\r\nandika  13218030        100\r\ndanu    13218022        99\r\nelang   13218041        99",
+      "output": "Data tidak ditemukan!\r\n\r\nHasil sorting berdasarkan nama:\r\nandika\t13218030\t100\r\ndanu\t13218022\t99\r\nelang\t13218041\t99\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu\t13218022\t99\r\nandika\t13218030\t100\r\nelang\t13218041\t99\r\n\r\nHasil sorting berdasarkan nilai:\r\nandika\t13218030\t100\r\ndanu\t13218022\t99\r\nelang\t13218041\t99",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -45,7 +45,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "2\r\natang 13218049 90\r\ndanu 13218022 28\r\ndanu",
-      "output": "danu    13218022        28\r\n\r\nHasil sorting berdasarkan nama:\r\natang   13218049        90\r\ndanu    13218022        28\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        28\r\natang   13218049        90\r\n\r\nHasil sorting berdasarkan nilai:\r\natang   13218049        90\r\ndanu    13218022        28",
+      "output": "Hasil pencarian:\r\ndanu\t13218022\t28\r\n\r\nHasil sorting berdasarkan nama:\r\natang\t13218049\t90\r\ndanu\t13218022\t28\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu\t13218022\t28\r\natang\t13218049\t90\r\n\r\nHasil sorting berdasarkan nilai:\r\natang\t13218049\t90\r\ndanu\t13218022\t28",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -55,7 +55,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "2\r\nmessi 13218001 94\r\nronaldo 18318007 94\r\nneymar",
-      "output": "Data tidak ditemukan!\r\n\r\nHasil sorting berdasarkan nama:\r\nmessi   13218001        94\r\nronaldo 18318007        94\r\n\r\nHasil sorting berdasarkan NIM:\r\nmessi   13218001        94\r\nronaldo 18318007        94\r\n\r\nHasil sorting berdasarkan nilai:\r\nmessi   13218001        94\r\nronaldo 18318007        94",
+      "output": "Data tidak ditemukan!\r\n\r\nHasil sorting berdasarkan nama:\r\nmessi\t13218001\t94\r\nronaldo\t18318007\t94\r\n\r\nHasil sorting berdasarkan NIM:\r\nmessi\t13218001\t94\r\nronaldo\t18318007\t94\r\n\r\nHasil sorting berdasarkan nilai:\r\nmessi\t13218001\t94\r\nronaldo\t18318007\t94",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -65,7 +65,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "2\r\nhaaland 18318020 85\r\nmbappe 13218022 89\r\n183",
-      "output": "haaland 18318020        85\r\n\r\nHasil sorting berdasarkan nama:\r\nhaaland 18318020        85\r\nmbappe  13218022        89\r\n\r\nHasil sorting berdasarkan NIM:\r\nmbappe  13218022        89\r\nhaaland 18318020        85\r\n\r\nHasil sorting berdasarkan nilai:\r\nmbappe  13218022        89\r\nhaaland 18318020        85",
+      "output": "haaland\t18318020\t85\r\n\r\nHasil sorting berdasarkan nama:\r\nhaaland\t18318020\t85\r\nmbappe\t13218022\t89\r\n\r\nHasil sorting berdasarkan NIM:\r\nmbappe\t13218022\t89\r\nhaaland\t18318020\t85\r\n\r\nHasil sorting berdasarkan nilai:\r\nmbappe\t13218022\t89\r\nhaaland\t18318020\t85",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -75,7 +75,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "2\r\nudin 13219019 87\r\nudinese 18319045 84\r\nudin",
-      "output": "udin    13219019        87\r\nudinese 18319045        84\r\n\r\nHasil sorting berdasarkan nama:\r\nudin    13219019        87\r\nudinese 18319045        84\r\n\r\nHasil sorting berdasarkan NIM:\r\nudin    13219019        87\r\nudinese 18319045        84\r\n\r\nHasil sorting berdasarkan nilai:\r\nudin    13219019        87\r\nudinese 18319045        84",
+      "output": "udin\t13219019\t87\r\nudinese\t18319045\t84\r\n\r\nHasil sorting berdasarkan nama:\r\nudin\t13219019\t87\r\nudinese\t18319045\t84\r\n\r\nHasil sorting berdasarkan NIM:\r\nudin\t13219019\t87\r\nudinese\t18319045\t84\r\n\r\nHasil sorting berdasarkan nilai:\r\nudin\t13219019\t87\r\nudinese\t18319045\t84",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -85,7 +85,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "2\r\natang 13218049 99\r\nbintang 13218050 98\r\ntang",
-      "output": "atang   13218049        99\r\nbintang 13218050        98\r\n\r\nHasil sorting berdasarkan nama:\r\natang   13218049        99\r\nbintang 13218050        98\r\n\r\nHasil sorting berdasarkan NIM:\r\natang   13218049        99\r\nbintang 13218050        98\r\n\r\nHasil sorting berdasarkan nilai:\r\natang   13218049        99\r\nbintang 13218050        98",
+      "output": "atang\t13218049\t99\r\nbintang\t13218050\t98\r\n\r\nHasil sorting berdasarkan nama:\r\natang\t13218049\t99\r\nbintang\t13218050\t98\r\n\r\nHasil sorting berdasarkan NIM:\r\natang\t13218049\t99\r\nbintang\t13218050\t98\r\n\r\nHasil sorting berdasarkan nilai:\r\natang\t13218049\t99\r\nbintang\t13218050\t98",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -95,7 +95,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "2\r\narif 13201010 58\r\nraif 18301010 81\r\n01010",
-      "output": "arif    13201010        58\r\nraif    18301010        81\r\n\r\nHasil sorting berdasarkan nama:\r\narif    13201010        58\r\nraif    18301010        81\r\n\r\nHasil sorting berdasarkan NIM:\r\narif    13201010        58\r\nraif    18301010        81\r\n\r\nHasil sorting berdasarkan nilai:\r\nraif    18301010        81\r\narif    13201010        58",
+      "output": "arif\t13201010\t58\r\nraif\t18301010\t81\r\n\r\nHasil sorting berdasarkan nama:\r\narif\t13201010\t58\r\nraif\t18301010\t81\r\n\r\nHasil sorting berdasarkan NIM:\r\narif\t13201010\t58\r\nraif\t18301010\t81\r\n\r\nHasil sorting berdasarkan nilai:\r\nraif\t18301010\t81\r\narif\t13201010\t58",
       "comparison": "included",
       "timeout": 1,
       "points": 10

@@ -13,7 +13,7 @@ struct mahasiswa *ptr;
 void printhasilcari(int index[], int n){
     printf("\nHasil pencarian:\n");
     for (int i = 0; i < n; ++i){
-        printf("%s\t%d\t%d\n", (ptr + index[i])->nama, (ptr + index[i])->NIM, (ptr + index[i])->nilai);
+        printf("%s\t%d\t\t%d\n", (ptr + index[i])->nama, (ptr + index[i])->NIM, (ptr + index[i])->nilai);
     }
 }
 
@@ -27,7 +27,7 @@ void printdata(struct mahasiswa *ptr, int n, int kategori){
         printf("nilai:\n");
     }
     for (int i = 0; i < n; ++i){
-        printf("%s\t%d\t%d\n", (ptr + i)->nama, (ptr + i)->NIM, (ptr + i)->nilai);
+        printf("%s\t%d\t\t%d\n", (ptr + i)->nama, (ptr + i)->NIM, (ptr + i)->nilai);
     }
 }
 

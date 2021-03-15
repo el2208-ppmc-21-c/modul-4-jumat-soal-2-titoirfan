@@ -5,7 +5,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "3\r\ndanu 13218022 100\r\nandika 13218030 99\r\nelang 13218041 98\r\ndan",
-      "output": "danu    13218022        100\r\n\r\nHasil sorting berdasarkan nama:\r\nandika  13218030        99\r\ndanu    13218022        100\r\nelang   13218041        98\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu    13218022        100\r\nandika  13218030        99\r\nelang   13218041        98\r\n\r\nHasil sorting berdasarkan nilai:\r\ndanu    13218022        100\r\nandika  13218030        99\r\nelang   13218041        98",
+      "output": "danu\\t13218022\\t100\r\n\r\nHasil sorting berdasarkan nama:\r\nandika\\t13218030\\t99\r\ndanu\\t13218022\\t100\r\nelang\\t13218041\\t98\r\n\r\nHasil sorting berdasarkan NIM:\r\ndanu\\t13218022\\t100\r\nandika\\t13218030\\t99\r\nelang\\t13218041\\t98\r\n\r\nHasil sorting berdasarkan nilai:\r\ndanu\\t13218022\\t100\r\nandika\\t13218030\\t99\r\nelang\\t13218041\\t98",
       "comparison": "included",
       "timeout": 1,
       "points": 10
